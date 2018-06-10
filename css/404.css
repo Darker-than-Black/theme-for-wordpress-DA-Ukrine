@@ -1,0 +1,17 @@
+.title_404 {
+	color: #000;
+	font-family: 'Roboto Slab', serif;
+	font-size: 2em;
+	font-weight: bold;
+	margin: 25px 0;
+	text-shadow: 0px 0px 30px rgba(255, 255, 255, 1);
+}
+
+.title_404 > p {
+	font-size: .7em;
+	text-align: justify;
+}
+
+#btn-404 {
+	margin: 0 auto;
+}

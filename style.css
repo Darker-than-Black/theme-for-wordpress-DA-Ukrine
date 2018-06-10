@@ -1,0 +1,159 @@
+/*
+Theme Name: DA Uk
+Author: Dmytro Rybachek
+Description:  
+Version: 0.53
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+*/
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #404040;
+  overflow: auto;
+}
+
+a {
+  text-decoration: none;
+  color: #849d9a;
+  transition: all .5s;
+}
+
+a:hover {
+  color: #275362;
+}
+
+a,
+p {
+  font-family: 'Alice', serif;
+  /* font-size: 1.2em; */
+  font-weight: 100;
+}
+
+.wrapper_block {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+@media only screen and (max-width: 1024px) {
+  .single_title {
+    font-size: 3em;
+    padding-left: 0;
+    padding-right: 0; 
+  }
+
+  .single_news {
+    height: 475px;
+  }
+
+  .btn-menu {
+    background-color: transparent;
+    box-shadow: none;
+    border: 1px solid black;
+  }
+
+  .btn-menu span {
+    background-color: #000;
+  }
+
+  .name-menu {
+    color: #000;
+    border: none;
+  }
+}
+
+ @media only screen and (max-width: 800px) {
+  .offset-1 {
+    margin-left: 0;
+  }
+} 
+
+@media only screen and (max-width: 600px) {
+  .name_site {
+    font-size: 3em;
+  }
+  
+  .news_title a,
+  .single_title {
+    font-size: 1.5em;
+    padding-left: 0;
+    padding-right: 0; 
+  }
+
+  .single_news {
+    height: 250px;
+  }
+
+  .news {
+    min-height:400px;
+  }
+
+  .news .container-fluid {
+    top: 10%;
+  }
+
+  .single_news .container-fluid {
+    top: 25%;
+  }
+
+  .news_text {
+    display: none;
+  }
+
+  /* modile menu */
+  .hidden-menu {
+    width: 280px;
+    right: -280px;
+  }
+
+  .hidden-menu-ticker:checked ~ .btn-menu {
+    right: 290px;
+  }
+
+  .sea_text .container-fluid {
+    padding: 0;
+  }
+
+  .mBt #searchform {
+    width:69%;
+ }
+
+  .mBt #searchform input[type='text'] {
+    width: 100%;
+  }
+
+   #searchform input[type='text'] {
+    width: 69%;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+  /* modile menu */
+  .hidden-menu {
+    width: 260px;
+    right: -260px;
+  }
+
+  .hidden-menu-ticker:checked ~ .btn-menu {
+    right: 270px;
+  }
+
+  .news_link, 
+  .paging {
+    padding: 15px 30px;
+  }
+
+  .single_wrapper .container-fluid .row:nth-child(3) {
+    padding: 10px 0;
+  }
+
+    .mBt #searchform {
+      width:100%;
+   }
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+}

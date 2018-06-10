@@ -1,0 +1,51 @@
+footer {
+  background-color: #14272d;
+}
+
+footer .wrapper .container-fluid .row:first-child {
+  padding: 35px 0;
+}
+
+.fLogo {
+  width: 88%;
+  height: auto;
+  display: block;
+}
+
+.contact {
+  color: #f9fbfd;
+}
+
+.contact p {
+  margin: 0;
+  font-family: 'Domine', serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+
+.contact p:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+}
+
+footer .wrapper .container-fluid .row:first-child .col-md-4 h3 a{
+  color: #f9fbfd;
+  font-family: 'Domine', serif;
+}
+
+.byMe h5 {
+  font-family: 'Indie Flower', cursive;
+  font-size: 1.1em;
+  line-height: 2em;
+  letter-spacing: 1.2px;
+  color: #f9fbfd;
+  text-align: center;
+}
+
+.byMe h5 a {
+  color: #849d9a;
+  text-decoration: underline;
+  font-family: 'Indie Flower', cursive;
+}
